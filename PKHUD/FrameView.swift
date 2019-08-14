@@ -35,16 +35,16 @@ internal class FrameView: UIVisualEffectView {
 
         let offset = 20.0
 
-        let motionEffectsX = UIInterpolatingMotionEffect(keyPath: "center.x", type: .tiltAlongHorizontalAxis)
-        motionEffectsX.maximumRelativeValue = offset
-        motionEffectsX.minimumRelativeValue = -offset
+        //let motionEffectsX = UIInterpolatingMotionEffect(keyPath: "center.x", type: .tiltAlongHorizontalAxis)
+        //motionEffectsX.maximumRelativeValue = offset
+        //motionEffectsX.minimumRelativeValue = -offset
 
-        let motionEffectsY = UIInterpolatingMotionEffect(keyPath: "center.y", type: .tiltAlongVerticalAxis)
-        motionEffectsY.maximumRelativeValue = offset
-        motionEffectsY.minimumRelativeValue = -offset
+        //let motionEffectsY = UIInterpolatingMotionEffect(keyPath: "center.y", type: .tiltAlongVerticalAxis)
+        //motionEffectsY.maximumRelativeValue = offset
+        //motionEffectsY.minimumRelativeValue = -offset
 
-        let group = UIMotionEffectGroup()
-        group.motionEffects = [motionEffectsX, motionEffectsY]
+        //let group = UIMotionEffectGroup()
+        //group.motionEffects = [motionEffectsX, motionEffectsY]
 
         //addMotionEffect(group)
     }
