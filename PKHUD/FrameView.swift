@@ -46,7 +46,7 @@ internal class FrameView: UIVisualEffectView {
         let group = UIMotionEffectGroup()
         group.motionEffects = [motionEffectsX, motionEffectsY]
 
-        addMotionEffect(group)
+        //addMotionEffect(group)
     }
 
     private var _content = UIView()
